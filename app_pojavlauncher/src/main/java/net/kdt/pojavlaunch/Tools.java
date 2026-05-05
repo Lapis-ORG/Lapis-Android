@@ -114,7 +114,7 @@ import java.util.Map;
 public final class Tools {
     public  static final float BYTE_TO_MB = 1024 * 1024;
     public static final Handler MAIN_HANDLER = new Handler(Looper.getMainLooper());
-    public static String APP_NAME = "Amethyst";
+    public static String APP_NAME = "Lapis";
 
     public static final Gson GLOBAL_GSON = new GsonBuilder().setPrettyPrinting().create();
 
@@ -125,11 +125,11 @@ public final class Tools {
     public static String MULTIRT_HOME;
     public static String LOCAL_RENDERER = null;
     public static int DEVICE_ARCHITECTURE;
-    public static final String LAUNCHERPROFILES_RTPREFIX = "amethyst://";
+    public static final String LAUNCHERPROFILES_RTPREFIX = "lapis://";
 
     // New since 3.3.1
     public static String DIR_ACCOUNT_NEW;
-    public static String DIR_GAME_HOME = Environment.getExternalStorageDirectory().getAbsolutePath() + "/games/Amethyst";
+    public static String DIR_GAME_HOME = Environment.getExternalStorageDirectory().getAbsolutePath() + "/games/Lapis";
     public static String DIR_GAME_NEW;
     public static String GAME_PROFILES_FILE;
 
@@ -156,7 +156,7 @@ public final class Tools {
         if(SDK_INT >= 29) {
             return ctx.getExternalFilesDir(null);
         }else{
-            return new File(Environment.getExternalStorageDirectory(),"games/Amethyst");
+            return new File(Environment.getExternalStorageDirectory(),"games/Lapis");
         }
     }
 
@@ -289,42 +289,6 @@ public final class Tools {
                 if (file.getName().toLowerCase().contains(filename.toLowerCase())) return true;
         }
         return false;
-    }
-
-    /**
-     * Tries to delete any sodium related mods of the currently selected profile via string matching
-     * the files in the mods folder.
-     */
-    public static void deleteSodiumMods() {
-        File modsDir = new File(getGameDir(), "mods");
-        File[] mods = modsDir.listFiles(file -> file.isFile() && file.getName().endsWith(".jar"));
-        if(mods == null) ;
-        for(File file : mods) {
-            String name = file.getName().toLowerCase();
-            if(name.contains("sodium") ||
-                    name.contains("beddium")    || // Also covers embeddium
-                    name.contains("rubidium")   ||
-                    name.contains("xenon")      || // Name conflicts with another mod
-                    name.contains("celeritas")  ||
-                    name.contains("relictium")  ||
-                    name.contains("vintagium")  ||
-                    name.contains("podium")     ||
-                    name.contains("indium")     ||
-                    name.contains("lazurite")   ||
-                    name.contains("iris")       ||
-                    name.contains("monocle")    ||
-                    name.contains("voxy")       ||
-                    name.contains("nvidium")    ||
-                    name.contains("chloride")   ||
-                    name.contains("bedrodium")  ||
-                    name.contains("substrate")  || // Name conflicts with another mod
-                    name.contains("blendium")   ||
-                    name.contains("ryoamium")
-                // The name conflicts are for pretty dead mods so we ignore them.
-                // I doubt they're using some mod with less than 5k downloads with sodium.
-            ) if(!file.delete())
-                throw new RuntimeException("Failed to delete Sodium and related mods!");
-        }
     }
 
     /**
@@ -1780,12 +1744,7 @@ public final class Tools {
         return currentProfile == null || currentProfile.isLocal();
     }
     public static boolean hasOnlineProfile(){
-        for (MinecraftAccount accountToCheck : getAllProfiles()) {
-            if (!accountToCheck.isLocal() && !accountToCheck.isDemo()) {
-                return true;
-            }
-        }
-        return false;
+        return true;
     }
 
     public static void hasNoOnlineProfileDialog(Activity activity, @Nullable Runnable run, @Nullable String customTitle, @Nullable String customMessage){
