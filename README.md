@@ -20,13 +20,10 @@ Mirror Launcher is a Minecraft Java Edition launcher optimized for Android. This
 
 ## Current Status
 
-[] Revamped UI
-
-[] Custom Mirror Branding
-
-[] Working Mods & Resource Packs Installer
-
-[] QoL Features
+- [ ] Revamped UI
+- [ ] Custom Mirror Branding
+- [ ] Working Mods & Resource Packs Installer
+- [ ] QoL Features
 
 ## Renderers
 
