@@ -1,6 +1,6 @@
 ## Lapis Lazuli
 
-<img src="https://raw.githubusercontent.com/Mahdin4sure/Lapis-Android/refs/heads/v3_openjdk/app_pojavlauncher/src/main/assets/amethyst.png" align="left" width="130" height="130" alt="Amethyst logo">
+<img src="https://https://github.com/Lapis-ORG/Lapis-Android/refs/heads/v3_openjdk/app_pojavlauncher/src/main/assets/amethyst.png" align="left" width="130" height="130" alt="Amethyst logo">
 
 [![Android CI](https://github.com/Mahdin4sure/Lapis-Android/actions/workflows/android.yml/badge.svg)](https://github.com/Mahdin4sure/Lapis-Android/actions/workflows/android.yml)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Mahdin4sure/Lapis-Android)](https://github.com/Mahdin4sure/Lapis-Android/actions)
