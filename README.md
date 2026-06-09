@@ -1,6 +1,6 @@
-## Mirror Launcher
+## Lapis-Android
 
-<img src="https://github.com/Lapis-ORG/Lapis-Android/blob/v3_openjdk/app_pojavlauncher/src/main/assets/amethyst.png" align="center" width="130" height="130" alt="Amethyst logo">
+nothing..
 
 [![Android CI](https://github.com/Lapis-ORG/Lapis-Android/actions/workflows/android.yml/badge.svg)](https://github.com/Lapis-ORG/Lapis-Android/actions/workflows/android.yml)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Lapis-ORG/Lapis-Android)](https://github.com/Lapis-ORG/Lapis-Android/actions)
@@ -9,7 +9,7 @@ A feature-rich fork of [Amethyst-Android](https://github.com/AngelAuraMC/Amethys
 
 ## Overview
 
-Mirror Launcher is a Minecraft Java Edition launcher optimized for Android. This fork removes the online account requirement, allowing you to play Minecraft Java offline with offline/cracked accounts. It features multiple rendering backends and improved performance optimizations.
+Lapis is a Minecraft Java Edition launcher optimized for Android. This fork removes the online account requirement, allowing you to play Minecraft Java offline with offline/cracked accounts. It features multiple rendering backends and improved performance optimizations.
 
 ## Key Features
 
@@ -50,7 +50,7 @@ If you can run Amethyst, you meet the requirements.
 
 ## Usage
 
-1. Open Mirror
+1. Open Lapis
 2. Create or select a game profile
 2. Select your preferred renderer from the settings
 4. Configure game settings (RAM allocation, resolution, etc.)
