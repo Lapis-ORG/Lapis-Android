@@ -42,7 +42,7 @@ If you can run Amethyst, you meet the requirements.
 
 ## Installation
 
-1. Get the latest release from [releases](https://github.com/Lapis-ORG/Lapis-Android/releases] or download the pre-built app from the [automated builds][https://github.com/Lapis-ORG/Lapis-Android/actions)
+1. Get the latest release from [releases](https://github.com/Lapis-ORG/Lapis-Android/releases) or download the pre-built app from the [automated builds](https://github.com/Lapis-ORG/Lapis-Android/actions)
 2. Enable installation from unknown sources in your Android settings
 3. Install the APK file on your Android device
 4. Launch the app and configure your preferred renderer
