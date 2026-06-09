@@ -1,15 +1,15 @@
-## Lapis Lazuli
+## Mirror Launcher
 
-<img src="https://https://github.com/Lapis-ORG/Lapis-Android/refs/heads/v3_openjdk/app_pojavlauncher/src/main/assets/amethyst.png" align="left" width="130" height="130" alt="Amethyst logo">
+<img src="https://github.com/Lapis-ORG/Lapis-Android/blob/v3_openjdk/app_pojavlauncher/src/main/assets/amethyst.png" align="center" width="130" height="130" alt="Amethyst logo">
 
-[![Android CI](https://github.com/Mahdin4sure/Lapis-Android/actions/workflows/android.yml/badge.svg)](https://github.com/Mahdin4sure/Lapis-Android/actions/workflows/android.yml)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Mahdin4sure/Lapis-Android)](https://github.com/Mahdin4sure/Lapis-Android/actions)
+[![Android CI](https://github.com/Lapis-ORG/Lapis-Android/actions/workflows/android.yml/badge.svg)](https://github.com/Lapis-ORG/Lapis-Android/actions/workflows/android.yml)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Lapis-ORG/Lapis-Android)](https://github.com/Lapis-ORG/Lapis-Android/actions)
 
 A feature-rich fork of [Amethyst-Android](https://github.com/AngelAuraMC/Amethyst-Android), an ultimate continuation of Aurum & Argentum.
 
 ## Overview
 
-Lapis is a Minecraft Java Edition launcher optimized for Android. This fork removes the online account requirement, allowing you to play Minecraft Java offline with offline/cracked accounts. It features multiple rendering backends and improved performance optimizations.
+Mirror Launcher is a Minecraft Java Edition launcher optimized for Android. This fork removes the online account requirement, allowing you to play Minecraft Java offline with offline/cracked accounts. It features multiple rendering backends and improved performance optimizations.
 
 ## Key Features
 
@@ -17,6 +17,13 @@ Lapis is a Minecraft Java Edition launcher optimized for Android. This fork remo
 🎮 **6 Advanced Renderers** - Choose from multiple rendering backends for optimal performance  
 ⚡ **Optimized Performance** - Enhanced for Android devices  
 🔧 **Customizable Settings** - Full control over game settings and launcher preferences    
+
+## Current Status
+
+[] Revamped UI
+[] Custom Mirror Branding
+[] Working Mods & Resource Packs Installer
+[] QoL Features
 
 ## Renderers
 
@@ -35,7 +42,7 @@ If you can run Amethyst, you meet the requirements.
 
 ## Installation
 
-1. Get the latest release from [releases](https://github.com/Mahdin4sure/Lapis-Android/releases] or download the pre-built app from the [automated builds][https://github.com/Mahdin4sure/Lapis-Android/actions)
+1. Get the latest release from [releases](https://github.com/Lapis-ORG/Lapis-Android/releases] or download the pre-built app from the [automated builds][https://github.com/Lapis-ORG/Lapis-Android/actions)
 2. Enable installation from unknown sources in your Android settings
 3. Install the APK file on your Android device
 4. Launch the app and configure your preferred renderer
@@ -43,7 +50,7 @@ If you can run Amethyst, you meet the requirements.
 
 ## Usage
 
-1. Open Lapis
+1. Open Mirror
 2. Create or select a game profile
 2. Select your preferred renderer from the settings
 4. Configure game settings (RAM allocation, resolution, etc.)
